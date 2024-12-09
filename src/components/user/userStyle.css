@@ -1,0 +1,57 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-icon {
+    cursor: pointer;
+}
+
+.product-card, .student-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image, .student-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info, .student-info {
+    padding: 10px;
+}
+
+.product-title, .student-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product-description, .student-lastname, .student-marks, .student-std, .student-mobile {
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
